@@ -1,0 +1,5 @@
+/venv/
+/crypto/
+/.idea
+docker-compose.yml
+Dockerfile
