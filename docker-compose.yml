@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  screenbot:
+    build: .
+    container_name: ScreenShoter_Bot
+    privileged: true
+    restart: always
+    volumes:
+      - .:/screen
